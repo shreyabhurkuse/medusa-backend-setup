@@ -1,8 +1,6 @@
 name: "Update Preview Dependencies (feat/v2)"
 on:
-  schedule:
-    - cron: "15 */3 * * *" # every three hours
-  workflow_dispatch:
+  workflow_dispatch:# allows the workflows to be manually triggered
 
 jobs:
   update:
